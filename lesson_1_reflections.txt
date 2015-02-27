@@ -1,0 +1,42 @@
+with 'diff' command i can clearly notice the difference between two files
+based on symbols used to represent where the difference happened. These
+differences are represented by symbol '+' which means something new 
+inserted or symbol '-' which means something changed in a line
+for example a character or a word.
+
+How could having easy access to entire history of a file make you
+a more efficient programmer in the long term?
+In my opinion, efficience means be able to try new functionality
+without care about breaking your source because you know you
+can review all change history and restore at any time the prefered
+version.
+
+What do you think about the are the pros and cons of manually 
+choosing when to create a commit, like you do in Git, vs having
+versions automatically saved, like Google docs docs?
+
+Pros: you don't need to care loss because your content is always
+being saved automatically
+
+Cons: You can't handle concepts like checkpoints
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+In my opinion version control systems like Google Docs is oriented and designed for
+versioning documents and a document is treated and represented as an individual and 
+independent piece of information, on the other hand git is multipurpose version control
+system able to handle objects that are meaningful when related to each other
+
+How can you use the commands git log and git diff to view the history of files?
+Using git log to see the commit id for each version and git diff to make comparison
+between two versions.
+
+How might using version control make you more confident to make changes that could break
+something?
+
+Knowing that you can go back and forward and restore any commit, you can
+handle with more confidence your files.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+Hands on lab, complete all versioning control system lifecycle.
