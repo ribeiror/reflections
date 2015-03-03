@@ -8,3 +8,8 @@ A staging area represent a snapshot of files which has not yet being committed. 
 a working directory and the repository from the point of view of file transitions.
 With that in mind, a staging area gives you the hability to revert files, or keep track
 of files till you finally decide to commit to the repository.
+
+How can you use the staging area to make sure you have one commit per logical change?
+using DIFF command and all it's variant argument you can compare the current state of an object
+in the current directory with the staging area and the state of and object in the staging area 
+with repository.
