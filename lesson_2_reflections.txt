@@ -13,3 +13,8 @@ How can you use the staging area to make sure you have one commit per logical ch
 using DIFF command and all it's variant argument you can compare the current state of an object
 in the current directory with the staging area and the state of and object in the staging area 
 with repository.
+
+What are some situations when branches would be helpful in keeping your history organized?
+How would branches help?
+There some situations where you want to try some new feature or want to split you contents
+into logical segments with meaningful names in this case branch names acting as label.
