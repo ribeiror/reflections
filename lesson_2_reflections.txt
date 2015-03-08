@@ -26,3 +26,11 @@ What is the result of merging two branches together? Why do we represent it in t
 the way we do?
 Merging two branches, makes two becomming one. With the diagram it's clearer to see which
 branch it's being merged.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+automatic merges:
+	- pro: sources of two branches being transparently merged.
+	- cons: you don't have control of what is being merged.
+manually merges:
+	- pro: you can solve conflicts.
+	- cons: perhaps human mistakes in the merging process.
