@@ -1,2 +1,5 @@
 When would you want to create a remote repository rather then keeping all your work locally?
 I would create a remote repository to share with others or to make available to myself but with access from another computer
+
+Why might you want to always pull changes manually rather having Git automatically stay up-to-date with your remote repository?
+Push command operates on branches, so in order to have control about what to pulling, it's preferable to pull changes manually
