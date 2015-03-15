@@ -3,3 +3,10 @@ I would create a remote repository to share with others or to make available to 
 
 Why might you want to always pull changes manually rather having Git automatically stay up-to-date with your remote repository?
 Push command operates on branches, so in order to have control about what to pulling, it's preferable to pull changes manually
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+forks and clones are operations related to having a copy of a git repository. With fork command you are getting your own copy
+and managing your own version. Fork it's not part-of git, it's part-of github, and is useful when you don't have permissions
+to operate over an existing repository.
+Clone is a operation that enable you to work locally then push your changes to the remote repository which was cloned.
+Branches are pointers to commits that make it easy to handle or choose about what branch to pull or push.
