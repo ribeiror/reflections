@@ -10,3 +10,6 @@ and managing your own version. Fork it's not part-of git, it's part-of github, a
 to operate over an existing repository.
 Clone is a operation that enable you to work locally then push your changes to the remote repository which was cloned.
 Branches are pointers to commits that make it easy to handle or choose about what branch to pull or push.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+With a copy you can compare both and solve conflicts
