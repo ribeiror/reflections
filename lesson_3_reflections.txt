@@ -26,3 +26,12 @@ GitHub has interesting concepts like fork, pull request and collaborators,
 and collaborate work without GitHub means to manage on your own. The easier
 thing would be flexibility to design your own solution and the harder would be
 to managing it.
+
+When would you want to make changes in a separate branch rather directly in
+master? What benefits does each approach have?
+Use another branch when you are going to change something instead of introducing
+something new, this way you can compare both branches and decide to merge or
+revert.
+Using another branch you benefits the flexibility of having a second experimental
+version to make changes.
+Using always the master branch you benefits the easy life cycle of changes
